@@ -90,3 +90,14 @@ The **good points** are:
 
 The **pain points** are:
 - Since everything is not coupled, you've to deal with distributed communication.
+
+## 📨 Distributed Message Queue System
+
+That's generally a queue which you can use to put some messages inside it and read some messages from it as well. Usually you have the following stuff working around it:
+
+- **Publisher:** is able to put/create messages on the queue.
+- **Consumer:** is able to get/read messages from the queue.
+- **Queue:** is able to store messages inside it for some time till some service reads or deletes the message from it.
+- **Dead Letter Queue:** is able to retain the message that has not been processed after some attempts.
+- **Direct Exchange:** is able to send a message direct to a single queue consumer that is listening to it.
+- **Fanout Exchange:** is able to send a message for all the consumers that are listening to a queue.
