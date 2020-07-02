@@ -27,6 +27,7 @@ That's a simple SaaS E-Commerce platform example, to make a study about microser
 - Golang
 - Docker
 - Django
+- Celery
 - SQLite
 - Nest.js
 - Node.js
@@ -41,18 +42,18 @@ That's a simple SaaS E-Commerce platform example, to make a study about microser
 - Kubernetes
 
 ## 🧿 Microservices
-- Signatures **(Golang / Buffalo)**
+- [Signatures **(Golang / Buffalo)**](https://github.com/codeedu/maratonafc3p-microsservico-assinaturas)
   - Landing Page
   - Plans
   - Signature Process
   - In case the signature is made with success, its info is sent to a store manage microservice
 
-- Payments **(Serverless / API Gateway / Golang)**
+- [Payments **(Serverless / API Gateway / Golang)**](https://github.com/codeedu/maratonafc3-microsservico-pagamentos)
   - Process all payments and persists the data on a database
   - Single payment transactions
   - Signature creation transactions
 
-- Administrator **(Python / Django)**
+- [Administrator **(Python / Django / Celery)**](https://github.com/codeedu/maratonafc3-repo-main)
   - Make the multi tenant environment
   - Admin area
   - Send the created/updated products to a queue
