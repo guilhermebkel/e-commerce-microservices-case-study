@@ -28,6 +28,7 @@ That's a simple SaaS E-Commerce platform example, to make a study about microser
 - Docker
 - Django
 - Celery
+- Redis
 - SQLite
 - Nest.js
 - Node.js
@@ -53,7 +54,7 @@ That's a simple SaaS E-Commerce platform example, to make a study about microser
   - Single payment transactions
   - Signature creation transactions
 
-- [Administrator **(Python / Django / Celery)**](https://github.com/codeedu/maratonafc3-repo-main)
+- [Administrator **(Python / Django / Celery / Redis)**](https://github.com/codeedu/maratonafc3-repo-main)
   - Make the multi tenant environment
   - Admin area
   - Send the created/updated products to a queue
