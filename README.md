@@ -54,12 +54,12 @@ That's a simple SaaS E-Commerce platform example, to make a study about microser
   - Single payment transactions
   - Signature creation transactions
 
-- [Administrator **(Python / Django / Celery / Redis)**](https://github.com/codeedu/maratonafc3-repo-main)
+- [Administrator **(Python / Django / Celery / Redis)**](https://github.com/codeedu/maratonafc3-repo-main/tree/master/commerce-admin)
   - Make the multi tenant environment
   - Admin area
   - Send the created/updated products to a queue
 
-- Store **(Nest.js / Node.js / Loopback / ElasticSearch)**
+- [Store **(Nest.js / Node.js / Loopback / ElasticSearch)**](https://github.com/codeedu/maratonafc3-repo-main/tree/master/commerce-shop)
   - Sync the received products by administrator microservice on the ElasticSearch
   - Use the payment microservice in a sync way
   - The created purchases are sent to a queue
